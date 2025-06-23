@@ -1,128 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Giri Chokkalingam | Embedded Systems Engineer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg: #0f172a;
-      --primary: #94a3b8;
-      --accent: #38bdf8;
-      --text: #e2e8f0;
-    }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-      padding: 2rem;
-    }
-    h1, h2 {
-      color: var(--accent);
-      font-weight: 600;
-    }
-    nav {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 2rem;
-    }
-    a {
-      color: var(--accent);
-      text-decoration: none;
-      transition: color 0.3s;
-    }
-    a:hover {
-      color: #facc15;
-    }
-    section {
-      margin-bottom: 3rem;
-      max-width: 800px;
-    }
-    ul { list-style-type: square; padding-left: 1.5rem; }
-    .highlight { color: var(--accent); font-weight: bold; }
-    .contact-links a { display: inline-block; margin-right: 1rem; }
-    footer { margin-top: 2rem; color: #64748b; font-size: 0.9rem; }
-  </style>
+  <meta charset="UTF-8">
+  <title>Giri | Embedded Systems Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-
-  <nav>
+  <aside class="sidebar">
     <h1>Giri C</h1>
-    <div>
-      <a href="#about">About</a> |
-      <a href="#projects">Projects</a> |
-      <a href="#skills">Skills</a> |
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
-    </div>
-  </nav>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I'm an <span class="highlight">Electronics and Communication Engineering</span> student specializing in 
-      <span class="highlight">Embedded Systems</span>. I’m passionate about innovating technology solutions and 
-      have hands-on experience through internships and personal projects in automation, IoT, and smart systems.
-    </p>
-  </section>
-
-  <section id="experience">
-    <h2>Experience</h2>
-    <ul>
-      <li><strong>Intern - Vasantha Advanced Systems Pvt. Ltd</strong> (Feb–Mar 2025)<br>
-        Hands-on work with embedded systems and industrial automation.</li>
-      <li><strong>Industrial Training - ANNUR ITI</strong> (Jun 2023–Jun 2025)<br>
-        Learned industrial safety, instrumentation, and fault diagnosis.</li>
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Smart Agriculture System</strong><br>
-        Automated irrigation based on environmental moisture sensing.</li>
-      <li><strong>Smart Smoke Detection System</strong><br>
-        Real-time gas and air quality monitoring with alert system.</li>
-    </ul>
-  </section>
-
-  <section id="skills">
-    <h2>Technical Skills</h2>
-    <p><strong>Languages:</strong> Python, C, HTML, CSS, JavaScript</p>
-    <p><strong>Tools:</strong> MATLAB, Arduino IDE, Multisim, Thony IDE</p>
-    <p><strong>Hardware:</strong> Arduino, Raspberry Pi, ESP32, Microcontrollers</p>
-    <h3>Soft Skills</h3>
-    <ul>
-      <li>Team Collaboration</li>
-      <li>Strong Communication</li>
-      <li>Problem Solving</li>
-    </ul>
-  </section>
-
-  <section id="certs">
-    <h2>Certifications</h2>
-    <ul>
-      <li>HTML, CSS, Web Design – Great Learning</li>
-      <li>24hr Code Rush World Record – 4th Place (Python + Problem Solving)</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>📧 <a href="mailto:girichokkalingam0@gmail.com">girichokkalingam0@gmail.com</a></p>
-    <p>📞 9344169159</p>
-    <div class="contact-links">
+    </nav>
+    <div class="social">
       <a href="https://github.com/Giri-08" target="_blank">GitHub</a>
-      <a href="http://www.linkedin.com/in/girichokkalingam" target="_blank">LinkedIn</a>
-      <a href="https://drive.google.com/file/d/1YNkALEWVXvqJWQQbOQgGDTkmtLUSGJbO/view" target="_blank">Resume</a>
+      <a href="https://linkedin.com/in/girichokkalingam" target="_blank">LinkedIn</a>
     </div>
-  </section>
+  </aside>
 
-  <footer>
-    &copy; 2025 Giri C. All rights reserved.
-  </footer>
+  <main class="content">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I’m an Electronics and Communication Engineering student specializing in Embedded Systems. Passionate about smart solutions, automation, and real-world innovation.</p>
+    </section>
 
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="job">
+        <h3>Vasantha Advanced Systems Pvt. Ltd – Internship</h3>
+        <p>Feb 2025 – Mar 2025</p>
+        <p>Integrated embedded systems and automation in industrial applications.</p>
+      </div>
+      <div class="job">
+        <h3>Annur ITI – Industrial Training</h3>
+        <p>Jun 2023 – Jun 2025</p>
+        <p>Electrical instrumentation, safety protocols, fault diagnosis.</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Smart Agriculture System</h3>
+        <p>Adaptive irrigation using environmental and moisture data.</p>
+      </div>
+      <div class="project">
+        <h3>Smart Smoke Detection System</h3>
+        <p>Air quality and gas monitoring system with real-time alerts.</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <p><strong>Languages:</strong> Python, C, HTML, CSS, JavaScript</p>
+      <p><strong>Tools:</strong> MATLAB, Multisim, Arduino IDE</p>
+      <p><strong>Hardware:</strong> Arduino, Raspberry Pi, ESP32</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:girichokkalingam0@gmail.com">girichokkalingam0@gmail.com</a></p>
+      <p>Phone: 9344169159</p>
+      <p><a href="https://drive.google.com/file/d/1YNkALEWVXvqJWQQbOQgGDTkmtLUSGJbO/view" target="_blank">Download Resume</a></p>
+    </section>
+  </main>
 </body>
 </html>
