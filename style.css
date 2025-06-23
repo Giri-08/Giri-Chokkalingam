@@ -6,6 +6,7 @@
   --soft: #e0aaff;
   --white: #ffffff;
 }
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -13,6 +14,7 @@ body {
   color: var(--white);
   scroll-behavior: smooth;
 }
+
 header {
   background: var(--primary);
   padding: 1rem 2rem;
@@ -23,24 +25,29 @@ header {
   top: 0;
   z-index: 100;
 }
+
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
   color: var(--light);
 }
+
 nav ul {
   list-style: none;
   display: flex;
   gap: 2rem;
 }
+
 nav a {
   color: var(--white);
   text-decoration: none;
   transition: color 0.3s;
 }
+
 nav a:hover {
   color: var(--light);
 }
+
 .hero {
   display: flex;
   flex-wrap: wrap;
@@ -49,14 +56,17 @@ nav a:hover {
   padding: 2rem;
   animation: fadeIn 1.2s ease-in;
 }
+
 .hero-text {
   flex: 1;
   min-width: 250px;
 }
+
 .hero-img img {
   width: 250px;
   border-radius: 1rem;
 }
+
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -68,10 +78,12 @@ nav a:hover {
   text-decoration: none;
   transition: background 0.3s;
 }
+
 .btn:hover {
   background: var(--soft);
   color: var(--primary);
 }
+
 .section {
   padding: 3rem 2rem;
   background: var(--primary);
@@ -79,19 +91,23 @@ nav a:hover {
   border-radius: 10px;
   animation: fadeIn 1s ease-in;
 }
+
 .section h2 {
   color: var(--soft);
 }
+
 .project-grid {
   display: grid;
   gap: 1.5rem;
   margin-top: 1rem;
 }
+
 .project-card {
   background: var(--accent);
   padding: 1rem;
   border-radius: 10px;
 }
+
 footer {
   text-align: center;
   padding: 1rem;
@@ -99,6 +115,7 @@ footer {
   color: var(--white);
   margin-top: 2rem;
 }
+
 @keyframes fadeIn {
   0% { opacity: 0; transform: translateY(10px); }
   100% { opacity: 1; transform: translateY(0); }
