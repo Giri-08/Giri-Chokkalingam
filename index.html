@@ -3,93 +3,68 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Giri Chokkalingam - Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <title>Giri | Embedded Systems Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
-    <h1>Giri Chokkalingam</h1>
     <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#achievements">Achievements</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+      <div class="logo">Giri C</div>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
   </header>
-
-  <section id="home">
-    <div class="container" data-aos="fade-up">
-      <img src="profile.jpg" alt="Profile Photo" class="profile-pic" />
-      <h2>Aspiring Software Developer</h2>
-      <p>A hard-working individual aiming to grow with an organization.</p>
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Hi, I’m Giri 👋</h1>
+      <p>Electronics & Communication Engineer | Embedded Systems Developer</p>
+      <a href="assets/Giri_Resume.pdf" download class="btn">Download Resume</a>
+    </div>
+    <div class="hero-img">
+      <img src="assets/images/profile.jpg" alt="Profile Image">
     </div>
   </section>
-
-  <section id="about" data-aos="fade-up">
+  <section id="about" class="section">
     <h2>About Me</h2>
-    <p>I’m currently pursuing BE-ECE at Suguna College of Engineering. With a passion for tech and constant learning, I’ve built foundational experience through industrial visits and trainings.</p>
-    <ul>
-      <li><strong>DOB:</strong> 22 Aug 2003</li>
-      <li><strong>Languages:</strong> Tamil, English</li>
-      <li><strong>Email:</strong> girichokkalingam0@gmail.com</li>
+    <p>
+      I’m a passionate engineering student specializing in Embedded Systems and Industry 4.0, with hands-on experience in Python, embedded hardware, and industrial automation.
+    </p>
+    <ul class="info-list">
+      <li><strong>Education:</strong> B.E. ECE - Suguna College of Engineering</li>
+      <li><strong>Internships:</strong> Vasantha Advanced Systems, ANNUR ITI</li>
+      <li><strong>Skills:</strong> C, Python, HTML, CSS, JS, Arduino, Raspberry Pi, ESP32</li>
+      <li><strong>Tools:</strong> MATLAB, Multisim, Arduino IDE</li>
+      <li><strong>Soft Skills:</strong> Teamwork, Communication, Leadership</li>
     </ul>
   </section>
-
-  <section id="skills" data-aos="fade-up">
-    <h2>Key Skills</h2>
-    <div class="skills-grid">
-      <span>Python</span>
-      <span>HTML & CSS</span>
-      <span>Computer Knowledge</span>
-      <span>Canva Designing</span>
-      <span>Basics in Electric & Electronics</span>
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Smart Agriculture System</h3>
+        <p>IoT-based irrigation system adapting to crop and environmental needs using sensors and microcontrollers.</p>
+      </div>
+      <div class="project-card">
+        <h3>Smoke Detection System</h3>
+        <p>Adaptive smoke and gas monitoring system with real-time alerting for public and industrial safety.</p>
+      </div>
     </div>
   </section>
-
-  <section id="achievements" data-aos="fade-up">
-    <h2>Achievements & Training</h2>
-    <ul>
-      <li>Industrial visit to Suguna Pumps and Motor Coimbatore</li>
-      <li>Industrial training at Annur ITI</li>
-      <li>Visit to Pothanur Railway Coimbatore</li>
-    </ul>
-  </section>
-
-  <section id="projects" data-aos="fade-up">
-    <h2>Projects</h2>
-    <p>Coming Soon: Academic and personal tech projects</p>
-  </section>
-
-  <section id="resume" data-aos="fade-up">
-    <h2>Resume</h2>
-    <a href="resume.pdf" class="btn" download>Download Resume</a>
-  </section>
-
-  <section id="contact" data-aos="fade-up">
+  <section id="contact" class="section">
     <h2>Contact Me</h2>
     <p>Email: <a href="mailto:girichokkalingam0@gmail.com">girichokkalingam0@gmail.com</a></p>
-    <p>Phone: <a href="tel:+919344169159">+91 93441 69159</a></p>
-    <form>
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
+    <p>Phone: 9344169159</p>
+    <p>
+      <a href="https://github.com/Giri-08" target="_blank">GitHub</a> |
+      <a href="http://linkedin.com/in/girichokkalingam" target="_blank">LinkedIn</a>
+    </p>
   </section>
-
   <footer>
-    <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
-    <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-    <p>© 2025 Giri Chokkalingam</p>
+    <p>&copy; 2025 Giri C | Portfolio Website</p>
   </footer>
-
-  <script>
-    AOS.init({ duration: 1000 });
-  </script>
 </body>
 </html>
